@@ -1240,6 +1240,7 @@ textarea.contact-input {
     align-items: center;
     gap: 10px;
     background-color: rgb(238, 216, 238);
+    border: 1px solid black;
     border-radius: var(--radius-10);
     padding: 20px;
   }
@@ -1277,13 +1278,14 @@ textarea.contact-input {
   .elem-3 {
     top: -40px;
     right: -30px;
-    background-color: #fff;
+    background: radial-gradient(circle, #030303 0%, #ffffff 70%, #ebeb0f 100%);
+    border-radius: 50%;
 
   }
 
   .elem-3 ion-icon {
     color: var(--minion-yellow);
-    font-size: 6rem;
+    font-size: 7rem;
   }
 
   .rotate-img {
