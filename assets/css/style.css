@@ -567,23 +567,17 @@ body {
   margin-block-end: 30px;
 }
 
-/* .about-banner {
+.about-banner {
   background-color: var(--independence);
   /* Neutral, elegant background color */
-border-radius: var(--radius-10);
-/* Smooth rounded corners */
-margin-block-end: 30px;
-/* Spacing at the bottom */
-overflow: hidden;
-/* Ensures no content exceeds the boundaries */
-position: relative;
-/* For pseudo-elements */
-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-/* Subtle shadow for depth */
-transform: scale(1);
-/* Initial scale for hover effect */
-transition: transform 0.3s ease,
-box-shadow 0.3s ease;
+  border-radius: var(--radius-10);
+  margin-block-end: 30px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .about-banner:hover {
