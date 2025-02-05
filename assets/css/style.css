@@ -1458,3 +1458,7 @@ textarea.contact-input {
   }
 
 }
+
+.flipped {
+  transform: scaleX(-1);
+}
