@@ -164,6 +164,34 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   overflow-x: hidden;
+
+  font-family: 'Orbitron', sans-serif;
+  color: #0f0;
+  /* Neon Green Text */
+  background: black;
+  position: relative;
+}
+
+.hacker-text {
+  position: absolute;
+  color: rgba(0, 255, 0, 0.8);
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+  opacity: 0.9;
+  animation: fall linear infinite;
+}
+
+/* Random Falling Animation */
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(110vh);
+    opacity: 1;
+  }
 }
 
 :focus-visible {
@@ -352,7 +380,7 @@ body {
 }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  /* background-image: url("../images/hero-bg.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -409,7 +437,7 @@ body {
 .hero-title strong {
   display: block;
   font-size: 40px;
-  color: black;
+  color: rgb(32, 213, 83);
   /* Deep sky blue for highlight */
   animation: bounceIn 1.5s ease-in-out;
 }
@@ -618,7 +646,7 @@ box-shadow 0.3s ease;
 
 .section.portfolio {
   padding: 60px 20px;
-  background-image: url("../images/p-bg.jpg");
+  /* background-image: url("../images/p-bg.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -645,7 +673,7 @@ box-shadow 0.3s ease;
   max-width: 900px;
   margin: 0 auto 40px;
   font-size: 2rem;
-  color: black;
+  color: rgb(53, 228, 40);
   line-height: 1.8;
 }
 
@@ -1315,7 +1343,7 @@ textarea.contact-input {
 
   .about {
     padding-block: 180px;
-    background-image: url("../images/hero-bg.jpg");
+    /* background-image: url("../images/hero-bg.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
